@@ -13,6 +13,20 @@ h1 {
 
 }
 
+div{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 400px;
+    height: 200px;
+    border-radius: 200px 200px 0 0;
+    background-color: lightblue;
+    z-index: 10;
+    background-color: #493B89;
+    transform-origin: bottom center;
+    transform: rotate(180deg);
+}
+
 
 button {
     background-color: #493B89;
