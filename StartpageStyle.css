@@ -1,13 +1,24 @@
+@import url(//db.onlinewebfonts.com/c/0a63376f97a11722fee9180335d2529b?family=Beattingvile);
+
 body {
-    background-color: #FEC16E;
+    background: linear-gradient(#FEC16E,#FBA682);
 }
 
-p1 {
+h1 {
+    
+    font-family: "Beattingvile";
+    color: white;
+    font-size: 500%;
+
 
 }
 
 
 button {
     background-color: #493B89;
+    color: whitesmoke;
+    border-radius: 25px;
+    height: 50px;
+    width: 30%;
     margin-top: 2%;
 }
