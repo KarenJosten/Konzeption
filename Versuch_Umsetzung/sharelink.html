@@ -18,7 +18,7 @@
     </header>
         <main>
            <p class="copy">Kopiere den Link um gemeinsam zu spielen:</p>
-            <a class="link" href="#" >share.link/join/78gh7</a>
+            <a class="link" href="#" onclick="mark(this)">share.link/join/78gh7</a>
             <a href="nutzername.html">
             <button class="next">Weiter</button>
         </a>
@@ -29,3 +29,9 @@
         </main>
     </body>
 </html>
+
+<script>
+    function mark(el) {
+    el.style.color = "green";
+    }
+</script>

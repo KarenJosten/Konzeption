@@ -324,3 +324,45 @@ video {
 .controls > button:hover svg {
   color: white;
 }
+
+/*gamefield*/
+.gameboardHard {
+  position: absolute;
+  left: 50%;
+  top: 55%;
+  transform: translate(-50%, -50%);
+  text-align: center;
+}
+
+.raster1 {
+  display: grid;
+  grid-template-columns: 150px 150px 150px 150px;
+  grid-template-rows: 150px 150px;
+  grid-column-gap: 20px;
+  grid-row-gap: 20px;
+  justify-items: stretch;
+  align-items: stretch;
+  justify-content: center;
+}
+
+.raster2 {
+  display: grid;
+  grid-template-columns: 110px 110px 110px 110px;
+  grid-template-rows: 110px 110px 110px 110px;
+  grid-column-gap: 20px;
+  grid-row-gap: 20px;
+  justify-items: stretch;
+  align-items: stretch;
+  justify-content: center;
+}
+
+.raster3 {
+  display: grid;
+  grid-template-columns: 100px 100px 100px 100px 100px 100px 100px 100px;
+  grid-template-rows: 100px 100px 100px 100px;
+  grid-column-gap: 20px;
+  grid-row-gap: 20px;
+  justify-items: stretch;
+  align-items: stretch;
+  justify-content: center;
+}
