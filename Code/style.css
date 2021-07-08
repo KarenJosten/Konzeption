@@ -75,7 +75,7 @@ h2 {
 
 .btn-start {
   background-color: #493B89;
-  color: gray;
+  color: white;
   border-radius: 25px;
   height: 70px;
   width: 20%;
@@ -85,6 +85,10 @@ h2 {
   position: relative;
   margin-bottom: 10px;
   font-size: 30px;
+}
+
+.btn-start:hover {
+  color: #FEC16E;
 }
 
 .btn-2 {
@@ -160,6 +164,10 @@ form {
   font-size: 25px;
 }
 
+.submit:hover {
+  color: #FEC16E;
+}
+
 .textfield {
   margin-top: 12%;
   width: 240px;
@@ -209,6 +217,10 @@ form {
   font-size: 25px;
 }
 
+.linkcopy:hover {
+  color: #493B89;
+}
+
 .next {
   background-color: #493B89;
   color: whitesmoke;
@@ -222,6 +234,10 @@ form {
   position: relative;
   margin-bottom: 10px;
   font-size: 25px;
+}
+
+.next:hover {
+  color: #FEC16E;
 }
 
 /*Lobby*/
