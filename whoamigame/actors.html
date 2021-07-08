@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<meta charset="utf-8" />
+	<title>WhoAmI?</title>
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="sharelink.html">
+    <link href="//db.onlinewebfonts.com/c/0a63376f97a11722fee9180335d2529b?family=Beattingvile" rel="stylesheet" type="text/css"/>
+    <link rel="stylesheet" href="style2.css" type="text/css" media="screen" />
+    <title>WhoAmI? Onlinegame</title>
+</head>
+    <body>
+        <header>
+        <div class="halbkreis"></div>
+        <h1>WHOAMI?</h1>
+    </header>
+        <main>
+            <h3>Wähle eine Kategorie und stelle <br>
+                dir dein Set von 21 Karten <br>
+                zusammen! <br>
+                Du kannst auch Kategorien <br>
+                kombinieren.</h3>
+                <a class="naviSinger" href="singer.html">
+                  <p>Sänger</p>
+              </a>
+              <a class="naviActors" href="actors.html">
+                <p><b>Schauspieler</b></p>
+            </a>
+                <a class="naviNutzer" href="gamer.html">
+                  <p>Nutzer</p>
+              </a>
+            <h2><a class="counter" id="clicks">0</a>/21</h2>
+            <div class="row">
+                <div class="column">
+                  <div class="text">Liam Neeson
+                    <img id="imageId" src="img/liam.jpg" onclick="mark(this)">
+                    </div><br>
+                <div class="text">Emma Stone
+                  <img id="imageId" src="img/emma.jpeg" onclick="mark(this)">
+                  </div><br>
+                  <div class="text">Julia Roberts
+                    <img id="imageId" src="img/julia.jpeg" onclick="mark(this)">
+                    </div><br>
+                </div>
+                <div class="column">
+                  <div class="text">Chris Hemsworth
+                    <img id="imageId" src="img/chris.jpeg" onclick="mark(this)">
+                  </div><br>
+                  <div class="text">Cameron Diaz
+                    <img id="imageId" src="img/cameron.jpg" onclick="mark(this)">
+                  </div><br>
+                  <div class="text">Will Smith
+                    <img id="imageId" src="img/will.jpeg" onclick="mark(this)">
+                  </div><br>
+                </div>
+                <div class="column">
+                  <div class="text">Emma Watson
+                    <img id="imageId" src="img/emmaw.jpg" onclick="mark(this)">
+                    </div><br>
+                  <div class="text">Jonny Depp
+                    <img id="imageId" src="img/jonny.jpg" onclick="mark(this)">
+                  </div><br>
+                  <div class="text">Tom Holland
+                    <img id="imageId" src="img/tom.jpg" onclick="mark(this)">
+                  </div><br>
+                </div>
+                <div class="column">
+                  <div class="text">Scarlett Johansson
+                    <img id="imageId" src="img/scarlett.jpg" onclick="mark(this)">
+                  </div><br>
+                  <div class="text">Anya Taylor-Joy
+                    <img id="imageId" src="img/anya.jpg" onclick="mark(this)">
+                  </div><br>
+                  <div class="text">Anne Hathaway
+                    <img id="imageId" src="img/anne.jpg" onclick="mark(this)">
+                  </div>
+                </div>
+              </div>
+        </main>
+        <a href="lobby.html">
+          <button class="back2">Zurück</button>
+      </a>
+        <a href="chooseCard.html">
+            <button class="btn-2">Weiter</button>
+        </a>
+    </body>
+</html>
+
+<script>
+var clicks = 0;
+function mark(el) {
+    el.style.border = "4px solid #Faa783";
+    clicks += 1;
+    document.getElementById("clicks").innerHTML = clicks;
+
+    if (clicks == 21) {
+    alert("Anzahl der Karten erreicht!");
+}
+}
+
+</script>
