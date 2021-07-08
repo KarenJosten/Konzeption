@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<meta charset="utf-8" />
+	<title>WhoAmI?</title>
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="sharelink.html">
+    <link href="//db.onlinewebfonts.com/c/0a63376f97a11722fee9180335d2529b?family=Beattingvile" rel="stylesheet" type="text/css"/>
+    <link rel="stylesheet" href="style2.css" type="text/css" media="screen" />
+    <title>WhoAmI? Onlinegame</title>
+</head>
+    <body>
+        <header>
+        <div class="halbkreis"></div>
+        <h1>WHOAMI?</h1>
+    </header>
+        <main>
+            <h3>Wähle eine Kategorie und stelle <br>
+                dir dein Set von 21 Karten <br>
+                zusammen! <br>
+                Du kannst auch Kategorien <br>
+                kombinieren.</h3>
+                <a class="naviSinger" href="singer.html">
+                    <p>Sänger</p>
+                </a>
+                <a class="naviActors" href="actors.html">
+                  <p>Schauspieler</p>
+              </a>
+                  <a class="naviNutzer" href="gamer.html">
+                    <p><b>Nutzer</b></p>
+                </a>
+            <h2><a class="counter" id="clicks">0</a>/21</h2>
+            <div class="row">
+                <div class="column">
+                    <div class="text">Mache ein Foto!
+                    <a href="camera.html">
+                    <img src="img/camera.jpg">
+                </a>
+            </div><br>
+                <div class="text">Hardy
+                  <img id="imageId" src="img/1.jpg" onclick="mark(this)">
+                  </div><br>
+                <div class="text">Andrea
+                  <img src="img/2.jpg" onclick="mark(this)">
+                </div><br>
+                <div class="text">liamCB
+                  <img src="img/3.jpg" onclick="mark(this)">
+                </div><br>
+                <div class="text">Lilly
+                  <img src="img/4.jpg" onclick="mark(this)">
+                </div><br>
+                <div class="text">user2
+                  <img src="img/5.jpg" onclick="mark(this)">
+                </div>
+                </div>
+
+                <div class="column">
+                    <div class="text">EmilA2
+                  <img src="img/7.jpg" onclick="mark(this)">
+                </div><br>
+                <div class="text">Melina
+                  <img src="img/8.jpg" onclick="mark(this)">
+                </div><br>
+                <div class="text">Marie
+                  <img src="img/9.jpg" onclick="mark(this)">
+                </div><br>
+                <div class="text">Melli
+                  <img src="img/10.jpg" onclick="mark(this)">
+                </div><br>
+                <div class="text">Liam
+                  <img src="img/11.jpg" onclick="mark(this)">
+                </div><br>
+                <div class="text">sarah00
+                  <img src="img/22.jpg" onclick="mark(this)">
+                </div>
+                </div>
+                <div class="column">
+                    <div class="text">Person1
+                  <img src="img/13.jpg" onclick="mark(this)">
+                </div><br>
+                <div class="text">Anja93
+                  <img src="img/14.jpg" onclick="mark(this)">
+                </div><br>
+                <div class="text">User4
+                  <img src="img/15.jpg" onclick="mark(this)">
+                </div><br>
+                <div class="text">gamer46
+                  <img src="img/16.jpg" onclick="mark(this)">
+                </div><br>
+                <div class="text">JamesJ
+                  <img src="img/17.jpg" onclick="mark(this)">
+                </div><br>
+                <div class="text">georgiaX1
+                  <img src="img/18.jpg" onclick="mark(this)">
+                </div>
+                </div>
+                <div class="column">
+                    <div class="text">Felixx
+                    <img src="img/6.jpg" onclick="mark(this)">
+                </div><br>
+                <div class="text">Justin
+                    <img src="img/12.jpg" onclick="mark(this)">
+                </div><br>
+                <div class="text">Peeeta
+                  <img src="img/19.jpg" onclick="mark(this)">
+                </div><br>
+                <div class="text">user55
+                  <img src="img/20.jpg" onclick="mark(this)">
+                </div><br>
+                <div class="text">bill21
+                  <img src="img/21.jpg" onclick="mark(this)">
+                </div><br>
+                <div class="text">sophieee
+                  <img src="img/23.jpg" onclick="mark(this)">
+                </div>
+                </div>
+              </div>
+        </main>
+        <a href="lobby.html">
+            <button class="back3">Zurück</button>
+        </a>
+        <a href="chooseCard.html">
+            <button class="btn-3">Weiter</button>
+        </a>
+    </body>
+</html>
+
+<script>
+var clicks = 0;
+function mark(el) {
+    el.style.border = "4px solid #Faa783";
+    clicks += 1;
+    document.getElementById("clicks").innerHTML = clicks;
+
+    if (clicks == 21) {
+    alert("Anzahl der Karten erreicht!");
+}
+}
+
+</script>
