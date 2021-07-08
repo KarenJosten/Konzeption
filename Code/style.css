@@ -40,6 +40,17 @@ h2 {
   margin-top: 15%;
 }
 
+h3 {
+  font-family:-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  z-index: 2;
+  margin: 0 auto;
+  position: absolute;
+  color:white;
+  margin-top: 19%;
+  margin-left: 22%;
+  font-size: 20px;
+}
+
 .halbkreis{
   position: absolute;
   width: 100%;
@@ -91,6 +102,24 @@ h2 {
   color: #FEC16E;
 }
 
+.btn-back {
+  background-color: #493B89;
+  color: white;
+  border-radius: 25px;
+  height: 60px;
+  width: 10%;
+  justify-content: center;
+  margin: 0 auto;
+  text-align: center;
+  position: relative;
+  margin-bottom: 10px;
+  font-size: 25px;
+}
+
+.btn-back:hover {
+  color: #FEC16E;
+}
+
 .btn-2 {
   background-color: #493B89;
   color: gray;
@@ -126,7 +155,7 @@ h2 {
   position: relative;
   margin-bottom: 10px;
   font-size: 30px;
-  margin-bottom: 8%;
+  
 }
 
 .btn-3:hover span {
@@ -138,6 +167,26 @@ h2 {
   content: "coming soon!";
   color: #FEC16E;
 }
+
+.help-btn {
+  background-color: #493B89;
+  color: whitesmoke;
+  border-radius: 25px;
+  height: 45px;
+  width: 10%;
+  justify-content: center;
+  margin: 0 auto;
+  margin-top: 1%;
+  text-align: center;
+  position: relative;
+  margin-bottom: 10px;
+  font-size: 20px;
+}
+
+.help-btn:hover {
+  color: #FEC16E;
+}
+
 
 /*Nutzername*/
 form {
@@ -173,6 +222,25 @@ form {
   width: 240px;
   height: 40px;
   font-size: 25px;
+}
+
+.backbtn {
+  background-color: #493B89;
+  color: whitesmoke;
+  border-radius: 25px;
+  height: 45px;
+  width: 60%;
+  justify-content: center;
+  margin: 0 auto;
+  margin-top: 1%;
+  text-align: center;
+  position: relative;
+  margin-bottom: 10px;
+  font-size: 25px;
+}
+
+.backbtn:hover {
+  color: #FEC16E;
 }
 
 /*ShareLink*/
@@ -425,4 +493,109 @@ video {
   justify-items: stretch;
   align-items: stretch;
   justify-content: center;
+}
+
+/*Hilfe*/
+
+.help-btn-back {
+  background-color: #493B89;
+  color: whitesmoke;
+  border-radius: 25px;
+  height: 45px;
+  width: 10%;
+  justify-content: center;
+  margin: 0 auto;
+  margin-top: 47%;
+  text-align: center;
+  position: relative;
+  margin-bottom: 10px;
+  font-size: 20px;
+}
+
+.help-btn-back:hover {
+  color: #FEC16E;
+}
+
+.wir {
+  z-index: 2;
+  margin: 0 auto;
+  color: #493B89;
+  font-size: 40px;
+  font-family:-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  position: absolute;
+  justify-content: center;
+  text-align: center;
+  margin: o auto;
+  margin-left: 22%;
+  margin-top: 22%;
+}
+
+.wirp {
+  z-index: 2;
+  margin: 0 auto;
+  color:white;
+  font-size: 20px;
+  font-family:-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  position: absolute;
+  justify-content: center;
+  text-align: center;
+  margin: o auto;
+  margin-left: 22%;
+  margin-top: 25%;
+}
+
+.fragen {
+  z-index: 2;
+  margin: 0 auto;
+  color: #493B89;
+  font-size: 40px;
+  font-family:-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  position: absolute;
+  justify-content: center;
+  text-align: center;
+  margin: o auto;
+  margin-left: 22%;
+  margin-top: 30%;
+}
+
+.fragenp {
+  z-index: 2;
+  margin: 0 auto;
+  color:white;
+  font-size: 20px;
+  font-family:-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  position: absolute;
+  justify-content: center;
+  text-align: center;
+  margin: o auto;
+  margin-left: 22%;
+  margin-top: 33%;
+}
+
+.uns {
+  z-index: 2;
+  margin: 0 auto;
+  color: #493B89;
+  font-size: 40px;
+  font-family:-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  position: absolute;
+  justify-content: center;
+  text-align: center;
+  margin: o auto;
+  margin-left: 22%;
+  margin-top: 39%;
+}
+
+.unsp {
+  z-index: 2;
+  margin: 0 auto;
+  color:white;
+  font-size: 20px;
+  font-family:-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  position: absolute;
+  justify-content: center;
+  text-align: center;
+  margin: o auto;
+  margin-left: 22%;
+  margin-top: 42%;
 }
