@@ -73,6 +73,20 @@ h2 {
   color: #FEC16E;
 }
 
+.btn-start {
+  background-color: #493B89;
+  color: gray;
+  border-radius: 25px;
+  height: 70px;
+  width: 20%;
+  justify-content: center;
+  margin: 0 auto;
+  text-align: center;
+  position: relative;
+  margin-bottom: 10px;
+  font-size: 30px;
+}
+
 .btn-2 {
   background-color: #493B89;
   color: gray;
@@ -91,7 +105,7 @@ h2 {
   display: none;
 }
 
-.btn-2:hover::before {
+.btn-2:hover:before {
   content: "coming soon!";
   color: #FEC16E;
 }
