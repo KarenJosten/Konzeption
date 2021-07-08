@@ -69,9 +69,13 @@ h2 {
   margin-top: 30%;
 }
 
+.btn-1:hover {
+  color: #FEC16E;
+}
+
 .btn-2 {
   background-color: #493B89;
-  color: whitesmoke;
+  color: gray;
   border-radius: 25px;
   height: 70px;
   width: 20%;
@@ -83,9 +87,18 @@ h2 {
   font-size: 30px;
 }
 
+.btn-2:hover span {
+  display: none;
+}
+
+.btn-2:hover::before {
+  content: "coming soon!";
+  color: #FEC16E;
+}
+
 .btn-3 {
   background-color: #493B89;
-  color: whitesmoke;
+  color: gray;
   border-radius: 25px;
   height: 70px;
   width: 20%;
@@ -98,14 +111,14 @@ h2 {
   margin-bottom: 8%;
 }
 
-.help {
-  border-radius: 10px;
-  height: 40px;
-  width: 5%;
-  margin-top: 10%;
-  justify-content: center;
-  margin: 0 auto;
-  font-size: 20px;
+.btn-3:hover span {
+  display: none;
+  content: "coming soon!";
+}
+
+.btn-3:hover::before {
+  content: "coming soon!";
+  color: #FEC16E;
 }
 
 /*Nutzername*/

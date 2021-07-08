@@ -18,11 +18,11 @@
     </header>
         <main>
            <p class="copy">Kopiere den Link um gemeinsam zu spielen:</p>
-            <input  class="link" type="text" value="https://karenjosten.github.io/Konzeption/Code/lobby2.html" id="myInput">
+            <input  class="link" type="text" value="https://karenjosten.github.io/Konzeption/Code/nutzername2.html" id="myInput">
             <button class="linkcopy" onclick="myFunction()">Kopieren</button>
 
             <a href="startseite.html">
-                <button class="back">Zurück</button>
+                <button class="next">Zurück</button>
             </a>
             <a href="lobby.html">
             <button class="next">Weiter</button>
@@ -33,17 +33,11 @@
 
 <script>
     function myFunction() {
-  /* Get the text field */
   var copyText = document.getElementById("myInput");
 
-  /* Select the text field */
   copyText.select();
-  copyText.setSelectionRange(0, 99999); /* For mobile devices */
-
-  /* Copy the text inside the text field */
+  copyText.setSelectionRange(0, 99999); 
   document.execCommand("copy");
-
-  /* Alert the copied text */
   alert("Text kopiert: " + copyText.value);
 }
 </script>
